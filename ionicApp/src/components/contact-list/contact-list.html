@@ -1,0 +1,13 @@
+
+<ion-list>
+  <button ion-item  *ngFor="let item of listContacts" (click)="goToChat(item)">
+  {{ item.name | uppercase}}
+  </button>  
+  <!--
+  <contact-row  *ngFor="let item of listContacts" (click)="goToContactInfo(item)">
+  
+  </contact-row>  
+  -->
+</ion-list>
+
+
